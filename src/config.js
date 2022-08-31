@@ -1,20 +1,20 @@
 /**
  * Настройки сервисов
  */
-const config ={
+const config = {
   store: {
     log: false,
 
     modules: {
       session: {
-        tokenHeader: 'X-Token'
-      }
-    }
+        tokenHeader: 'X-Token',
+      },
+    },
   },
 
   api: {
-    baseUrl: ''
-  }
-}
+    baseUrl: '',
+  },
+};
 
 export default config;
